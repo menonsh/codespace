@@ -4,12 +4,12 @@
 int main(void)
 {
     //Prompt user for x
-    int x = get_int("x: ");
+    long x = get_int("x: ");
 
     //Promt user for y
-    int y = get_int("y: ");
+    long y = get_int("y: ");
 
     //Add x and y
-    int z = x + y;
-    printf("%i\n", z);
+    long z = x + y;
+    printf("%li\n", z);
 }
